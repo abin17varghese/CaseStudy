@@ -40,18 +40,14 @@ public class CountLettersInArray {
            }
        }
    }
-  
 }
 class ArrayMain{
 	public static void main(String args[]) {
 	Scanner sc=new Scanner(System.in);
 	CountLettersInArray obj=new CountLettersInArray();
-	
 	char array1[]=obj.createArrays();
 	obj.display(array1);
-	
-	//Pick the random character
-	int c[]=obj.randomCharacter(array1);         //now we get the character we need to count
+	int c[]=obj.randomCharacter(array1);      
 	
 	obj.displayCount(array1,c);
 	}
